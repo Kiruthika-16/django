@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+
+</head>
+<body>
+
+<form method="post">
+    {% csrf_token %}
+  <center> <h4>   first Name: <input type="text" required name="first Name"> <br> <br>
+last Name:<input type="text"  name="last Name"> <br> <br>
+Phone No: <input type="number"  name="number"> <br> <br>
+email id: <input type="email"  name="email"><br><br>
+User id:  <input type="text"  name="uid"><br><br>
+password: <input type="text"  name="psd"><br><br> </h4>
+
+<!--gender:<input type="text" name="gen"><br><br>-->
+
+
+      <input type="submit" value="submit"> </center>
+</form>
+
+<script>
+    function validation(){
+    a= document.newform.first Name.value;
+    if (a
+    {
+    alert(a)
+    return false;
+    b=document.newform.Phone No.value;
+    alert(b)
+    return false;
+    }
+
+</script>
+</body>
+</html>

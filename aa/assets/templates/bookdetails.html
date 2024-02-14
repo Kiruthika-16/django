@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table>
+    <tr>
+        <th>Book_Name</th>
+        <th>Author_Name</th>
+    </tr>
+    {% for b in object %}
+    <tr>
+        <td>{{b.Book_Name}}</td>
+        <td>{{b.Author_Name}}</td>
+        <td><img src="{{b.File_Data.url}}" style="height:100px;width:100px"></td>
+        {% endfor %}
+    </tr>
+</table>
+</body>
+</html></html>
