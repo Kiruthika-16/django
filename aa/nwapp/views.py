@@ -79,3 +79,5 @@ def login(request):
 def Book_Details1(request):
     obj = Book_Details.objects.all()
     return render(request, 'bookdetails.html', {'object': obj})
+def newfunction():
+    pass
